@@ -16,7 +16,7 @@
     "debug": "^4.1.1",
     "dynamoose": "^1.1.0",
     "express": "^4.17.1",
-    "joi": "^11.4.0",
+    "joi": "^14.3.1",
     "morgan": "^1.9.1",
     "no-kafka": "^3.4.3",
     "topcoder-healthcheck-dropin": "^1.0.3",
