@@ -1,0 +1,27 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: eslint-plugin-react
+    versions:
+    - 7.22.0
+    - 7.23.0
+    - 7.23.1
+  - dependency-name: dynamoose
+    versions:
+    - 2.5.0
+    - 2.6.0
+    - 2.7.0
+    - 2.7.1
+    - 2.7.2
+  - dependency-name: config
+    versions:
+    - 3.3.3
+    - 3.3.4
+  - dependency-name: joi
+    versions:
+    - 17.3.0
